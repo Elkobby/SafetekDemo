@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body{
+	margin:0;
+	font-family: 'Quicksand', "sans-serif"
+}
+.homeContainer , .dashContainer{
+	display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 100%;
+    background:#fff;
+    margin: 0;
+    position: relative;
+}
+
+.homeHeader{ 
+-webkit-flex: 0.6; 
+	background: #7accc8;
+	color: white;
+	 position: relative;
+	 display: inline-block;
+	 text-align: center;
+ }
+
+ .dashHeader , .groupsHeader{
+	height: 100px;
+	background: #7accc8;
+	color: white;
+	position: relative;
+
+ }
+
+.homeHeader > .logo > img {
+	max-width: 50%;
+}
+.homeHeader > .logo  {
+	margin-top: 50px;
+	
+}
+
+.homeBody > form > ul > li {
+	padding-bottom: 20px;
+	padding-top:10px;
+	border-bottom: 1px solid #e05363;
+	display: inline-block;
+	text-align: center;
+}
+
+.homeBody > form > ul {
+	margin-left: 20%;
+}
+
+.homeBody > form > ul > li{
+	list-style-type: none;
+}
+.homeBody > form > ul > li > input {
+	border:none;
+}
+
+.homeBody > form > ul > li:last-child {
+	border-bottom: none;
+	padding-top: 20px;
+}
+.homeBody > form > li >  input {
+	border:none;
+}
+
+#submit-button {
+width: 120px;
+height: 40px;
+border-radius: 20px;
+color: white; 
+background: #e05363;
+border: none;
+}
+
+#sign-up {
+	margin-left: 20%;
+}
+
+
+
+.profile {
+	height: 70px; 
+	width: 70px;
+	background: grey;
+	border-radius: 100%;
+	position: absolute;
+	right: 10px; 
+	top:20px;
+
+}
+
+.name {
+	position: absolute;
+	position: left;
+	top: 10px;
+	left: 40px;
+	font-size: 30px;
+}
+
+.search {
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 20%;
+}
+
+.search > input {
+	width: 150%;
+	height: 40px;
+	border: 1px solid #e05363;
+	border-radius: 60px;
+}
+/*.profile > p {
+	font-size: 30px; 
+	padding: 2px;
+	text-align: center;
+	padding-bottom: 30px;
+}*/
+
+.search > ::-webkit-input-placeholder {
+    color: #666;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+*:focus {outline: none;}
+
+.searchResults {
+	margin-top: 30px;
+}
+.searchResults > ul > li { 
+
+list-style-type: none;
+font-size: 20px; 
+border-bottom: 1px solid #ccc;
+padding-bottom: 5px;
+margin-left: -30px;
+padding-left: 20px;
+ }
+
+ .groupsHeader > p {
+ 	padding-left: 120px;
+ 	font-size: 40px;
+ 	padding-top: 40px;
+ }
+
+ .joinCreate {
+ 	width: 200px;
+ 	height: 200px; 
+ 	border-radius: 150px; 
+ 	background: #e05363;
+ 	text-align: center;
+	vertical-align: middle;
+	line-height: 120px;
+	font-weight: bold;
+	font-size: 30px;
+	color:white;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+ }
+
