@@ -5,10 +5,20 @@
 	</head>
 	<body>
 	<div class="groupdashHeader">
-		<p>MeetPoints</p>
+		<p>Groups</p>
 	</div>
 		<div class="groupdashBody">
-			<p>Eng. Gate</p>
+			<div class="view">
+				<p><a href="">View Members</a></p>
+			</div>
+
+			<div class="chat">
+				<p><a href="">Chat</a></p>
+			</div>
+
+			<div class="exit">
+				<p><a href="">Exit Group</a></p>
+			</div>
 		</div>
 	</body>
 </html>
